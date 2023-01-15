@@ -7,4 +7,63 @@ body {
 
 html {
   font-family: 'Alegreya Sans', sans-serif;
+
+}
+
+.navigation {
+  display: flex;
+  height: 2.5rem;
+}
+
+.navigation__logoContainer {
+  display: flex;
+  width: 20%;
+  height: 100%;
+}
+
+.navigation__logoContainer-logo {
+  margin-left: 20px;
+}
+
+.navigation__linksContainer {
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+  width: 80%;
+}
+
+.navigation__linksContainer-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 20%;
+  color: #ffffff;
+  background-color: #444444;
+  text-decoration: none;
+}
+
+.navigation__linksContainer-link:hover {
+  background-color: #54be90;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  height: 40rem;
+  border: 1px solid green;
+}
+
+.heading__background {
+  height: 70%;
+  background-image: url("img/background.jpg");
+  justify-content: stretch;
+  background-position: center:
+}
+
+.heading__background__text em {
+  text-decoration-line: underline;
+  text-decoration-thickness: 3px;
+  text-decoration-color: #ffffff;
+  color: #54be90;
 }
