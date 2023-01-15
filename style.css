@@ -12,7 +12,7 @@ html {
 
 .navigation {
   display: flex;
-  height: 2.5rem;
+  height: 2.8rem;
 }
 
 .navigation__logoContainer {
@@ -50,20 +50,49 @@ html {
 .heading {
   display: flex;
   flex-direction: column;
-  height: 40rem;
-  border: 1px solid green;
+  height: 45rem;
 }
 
 .heading__background {
+  display: flex;
+  flex-direction: column;
   height: 70%;
+  margin-top: 8%;
   background-image: url("img/background.jpg");
-  justify-content: stretch;
-  background-position: center:
+  background-size: cover;
 }
 
-.heading__background__text em {
+.heading__background__head, .heading__background__body {
+  margin: 0;
+  text-align: center;
+  font-size: 3.5rem;
+  color: #ffffff;
+}
+
+.heading__background__head {
+  margin-top: 8%;
+}
+
+.heading__background__body {
+  font-size: 2.5rem;
+}
+
+.heading__background__head em {
+  font-style: normal;
+  font-weight: bold;
   text-decoration-line: underline;
   text-decoration-thickness: 3px;
   text-decoration-color: #ffffff;
   color: #54be90;
+}
+
+.heading__background__paragraph {
+  text-align: center;
+  margin: 4% 15% 3% 15%;
+  font-size: 1.3rem;
+}
+
+.heading__background__paragraph strong {
+  font-weight: bold;
+  color: #444444;
 }
