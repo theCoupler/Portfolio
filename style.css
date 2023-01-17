@@ -7,7 +7,6 @@ body {
 
 html {
   font-family: 'Alegreya Sans', sans-serif;
-
 }
 
 .navigation {
@@ -69,11 +68,11 @@ html {
 .heading__background__head, .heading__background__body {
   margin: 0;
   text-align: center;
-  font-size: 3.5rem;
   color: #ffffff;
 }
 
 .heading__background__head {
+  font-size: 3.5rem;
   margin-top: 8%;
 }
 
@@ -136,4 +135,101 @@ html {
 .workflow__box__text {
   text-align: center;
   margin: 0 5% 50% 5%;
+}
+
+.myskills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 35rem;
+}
+
+.myskills__heading {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #54be90;
+}
+
+.myskills__progress {
+  display: flex;
+  flex-direction: row;
+  height: 6%;
+  width: 70%;
+  margin: 3px;
+}
+
+.myskills__progress__skill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  font-size: 1.3rem;
+  font-weight: bold;
+  background-color: #232323;
+  color: #ffffff;
+}
+
+.myskills__progress__bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 10px;
+  width: 80%;
+  font-weight: bold;
+  background-color: #ebebeb;
+  color: #444444;
+}
+
+.myskills__progress__greenBar {
+  display: flex;
+  height: 100%;
+  width: 80%;
+  background-color: #54be90;
+}
+
+.myPortfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 40rem;
+  background-color: #54be90;
+}
+
+.myPortfolio__heading {
+  align-self: center;
+  padding: 40px 40px 0 40px;
+  margin: 0;
+  font-size: 3.5rem;
+  color: #ffffff;
+}
+
+.myPortfolio__boxes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  height: 30rem;
+}
+
+.myPortfolio__box {
+  display: flex;
+  flex-direction: column;
+  width: 18rem;
+  height: 13rem;
+  margin: 6px;
+  background-color: #ffffff;
+}
+
+.myPortfolio__box__img {
+  height: 100px;
+  width: 70px;
+}
+
+.myPortfolio__box__techStack {
+  margin: 0;
+  padding: 0;
 }
