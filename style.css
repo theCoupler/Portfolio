@@ -53,13 +53,12 @@ html {
 .heading {
   display: flex;
   flex-direction: column;
-  height: 45rem;
 }
 
 .heading__background {
   display: flex;
   flex-direction: column;
-  height: 70%;
+  height: 30rem;
   margin-top: 8%;
   background-image: url("img/background.jpg");
   background-size: cover;
@@ -93,7 +92,7 @@ html {
   text-align: center;
   margin: 4% 15% 3% 15%;
   font-size: 1.3rem;
-  margin-bottom: 5%;
+  margin-bottom: 10%;
 }
 
 .heading__background__paragraph strong {
@@ -232,4 +231,209 @@ html {
 .myPortfolio__box__techStack {
   margin: 0;
   padding: 0;
+}
+
+.about {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	background-color: #ebebeb;
+	padding: 2rem 15% 6rem 15%;
+}
+
+.heading {
+	font-size: 5rem;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.about .heading {
+	width: 100%;
+	color: #232323;
+}
+
+.about__img {
+	width: 45%;
+	max-width: 30rem;
+	height: 30rem;
+	border-radius: 70%;
+	object-position: center;
+}
+
+.about__desc {
+	width: 50%;
+	font-size: 1.25rem;
+}
+
+.about__underline {
+	border-bottom: 5px solid #54be90;
+}
+
+.about__cta {
+	font-size: 1.5rem;
+}
+
+.button {
+	color: #ffffff;
+	background-color: #54be90;
+	border-radius: 0.5rem;
+	box-shadow: 2px 2px 8px 0px rgba(68, 68, 68, 0.5);
+	font-size: 1.25rem;
+	text-align: center;
+	text-decoration: none;
+	margin: 0 auto;
+	padding: 0.5rem 3rem;
+}
+
+.button:hover {
+	box-shadow: 2px 2px 8px 0px rgba(68, 68, 68, 0.75);
+}
+
+.social {
+	background-color: #232323;
+	padding: 2rem 15% 6rem 15%;
+}
+
+.social .heading {
+	color: #ffffff;
+	font-size: 2.5rem;
+}
+
+.social__container {
+	display: flex;
+	justify-content: center;
+	margin-top: 4rem;
+	margin-bottom: 1rem;
+}
+
+.social__link {
+	margin: 0 6rem;
+}
+
+.social__link svg {
+	display: block;
+	width: 6rem;
+	height: 6rem;
+	margin: 0 auto;
+}
+
+.social__link svg path {
+	fill: #ffffff;
+}
+
+.social__link:hover svg path {
+	opacity: 0.75;
+}
+
+.contact {
+	background-color: #54be90;
+	padding: 2rem 15% 6rem 15%;
+}
+
+.contact .heading {
+	color: #ffffff;
+}
+
+.form {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 0 4rem;
+}
+
+.form__input {
+	width: 48%;
+	color: #ffffff;
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid #ebebeb;
+	outline: none;
+	font-size: 1.5rem;
+	margin-bottom: 2rem;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+}
+
+.form__input::placeholder {
+	color: #ebebeb;
+}
+
+.form__label {
+	width: 100%;
+	color: #ebebeb;
+	font-size: 1.5rem;
+	margin-bottom: 0.5rem;
+}
+
+.form__textarea {
+	width: 100%;
+	border: none;
+	border-radius: 0.5rem;
+	outline: none;
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 1.5rem;
+	margin-bottom: 2rem;
+	padding: 0.5rem;
+}
+
+.form__button {
+	width: 100%;
+	color: #ffffff;
+	background-color: #232323;
+	border: none;
+	border-radius: 0.5rem;
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin-bottom: 4rem;
+	padding: 0.75rem;
+	cursor: pointer;
+}
+
+.form__button:hover {
+	box-shadow: 2px 2px 8px 0px rgba(68, 68, 68, 0.75);
+}
+
+.footer {
+	background-color: #ebebeb;
+	padding: 2rem 2rem;
+}
+
+.footer .heading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+	color: #232323;
+	font-size: 3.5rem;
+	font-weight: 800;
+}
+
+.footer__line {
+	width: 25%;
+	height: 0.5rem;
+	background-color: #54be90;
+}
+
+.footer .social__link {
+	margin: 0 2rem;
+}
+
+.footer .social__link svg {
+	width: 4rem;
+	height: 4rem;
+}
+
+.footer .social__link svg path {
+	fill: #444444;
+	opacity: 0.25;
+}
+
+.footer .social__link:hover svg path {
+	opacity: 0.5;
+}
+
+.footer__copy {
+	font-size: 1.5rem;
+	text-align: center;
+	margin-top: 4rem;
 }
